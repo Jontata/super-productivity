@@ -120,6 +120,8 @@ enum PluginHooks {
   LANGUAGE_CHANGE = 'languageChange',
   PERSISTED_DATA_CHANGED = 'persistedDataChanged',
   ACTION = 'action',
+  DATA_CHANGED = 'dataChanged', // tasks/projects/tags or selection changed; refresh views only
+  DAY_CHANGE = 'dayChange', // { todayStr }: the logical day changed
 }
 ```
 
